@@ -4,7 +4,7 @@ import com.example.demo.Config;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-//@Component // for sample 1 only , mark it when need to try other samples
+@Component // for sample 1 only , mark it when need to try other samples
 public class Listener {
     static boolean warned = false;
 

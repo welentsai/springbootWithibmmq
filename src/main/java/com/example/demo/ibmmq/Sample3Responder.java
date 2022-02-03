@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import javax.jms.*;
 
-@Component // for sample 3
+//@Component // for sample 3
 public class Sample3Responder implements SessionAwareMessageListener {
     @JmsListener(destination = Config.qName)
     @Transactional(rollbackFor = Exception.class)
